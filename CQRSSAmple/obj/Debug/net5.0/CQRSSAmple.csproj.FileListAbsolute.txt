@@ -1,0 +1,63 @@
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csprojAssemblyReference.cache
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.GeneratedMSBuildEditorConfig.editorconfig
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfoInputs.cache
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfo.cs
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.CoreCompileInputs.cache
+C:\progetti\MyRepository\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.MvcApplicationPartsAssemblyInfo.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\appsettings.Development.json
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\appsettings.json
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.exe
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.deps.json
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.runtimeconfig.json
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.runtimeconfig.dev.json
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\ref\CQRSSAmple.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.pdb
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csprojAssemblyReference.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfoInputs.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfo.cs
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.CoreCompileInputs.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.MvcApplicationPartsAssemblyInfo.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\staticwebassets\CQRSSAmple.StaticWebAssets.Manifest.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\staticwebassets\CQRSSAmple.StaticWebAssets.xml
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\scopedcss\bundle\CQRSSAmple.styles.css
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.RazorTargetAssemblyInfo.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.CopyComplete
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\ref\CQRSSAmple.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.pdb
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.genruntimeconfig.cache
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Npgsql.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Humanizer.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.MvcApplicationPartsAssemblyInfo.cs
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Sinks.Seq.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Personale\Henshin\src\In corso\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Serilog.Sinks.Debug.dll

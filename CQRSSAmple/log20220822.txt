@@ -1,0 +1,2 @@
+2022-08-22 15:46:55.145 +02:00 [INF] CQRSSAmple.Controllers.OperatoriController - Start:  CQRSSAmple.Controllers.OperatoriController.Logon
+2022-08-22 17:25:29.792 +02:00 [INF] CQRSSAmple.Controllers.OperatoriController - Start:  CQRSSAmple.Controllers.OperatoriController.Logon
