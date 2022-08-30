@@ -1,9 +1,11 @@
+using System;
 using System.IO;
 using System.Text;
+using CQRSSAmple.ActionLog;
 using Microsoft.Extensions.Logging;
 using Serilog;
 
-namespace CQRSSAmple.Domain.Infrasctructure
+namespace CQRSSAmple.Log
 {
     public class LoggerHelper
     {
@@ -50,6 +52,32 @@ namespace CQRSSAmple.Domain.Infrasctructure
                 stream.Read(buffer, 0, (int)stream.Length);
                 return Encoding.UTF8.GetString(buffer);
             }
+        }
+        
+        public static void LogMongoAccess(Guid userID, LogEntityType logEntityType, string entityName, string origin)
+        {
+            var operation = new ActionLog.ActionLog();
+            operation.Data = DateTime.UtcNow;
+            operation.ActionType = LogActionType.LogAccess;
+            operation.EntityType = logEntityType;
+            operation.EntityName = entityName;
+            operation.CreatedDate = DateTime.UtcNow;
+            operation.PerformingGuid = userID.ToString();
+            operation.Data = origin;
+            
+            ActionLogDbEntryPointFactory.GetMongoDbEntryPoint().CreateAsync(operation);
+        }
+        
+        public static void LogMongo(ActionLog.ActionLog actionLog)
+        {
+            ActionLogDbEntryPointFactory.GetMongoDbEntryPoint().CreateAsync(actionLog);
+        }
+        
+        public static void LogError(Guid uuserID, string origin, string error)
+        {
+            var logger = LoggerHelper.GetInsance().GetLogger();
+            string method = string.Format("{0} {1} {2}", "Start: ",  origin, error); 
+            logger.LogInformation(uuserID.ToString() + " - " + method);
         }
     }
 }

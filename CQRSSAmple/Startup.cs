@@ -19,7 +19,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 
@@ -49,7 +48,8 @@ namespace CQRSSAmple
             //--GESTIRE LE MIGRAZIONI
             //--AGGIUNGERE I CONTROLLERS
             //--AGGIUNGERE AUTENTICAZIONE E GESTIONE UTENTI
-            //--AGGIUNGERE LOG
+            //--AGGIUNGERE LOG ECCEZIONI/OPERAZIONI
+            //AGGIUNGERE LOG ACTION SU MONGO DB
             //GESTIONE ERRORI
             //--GESTIONE CONFIGURAZIONI
             //--SWAGGER

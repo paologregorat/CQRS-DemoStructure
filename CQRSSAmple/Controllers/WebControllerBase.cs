@@ -1,7 +1,11 @@
 using System.Text.Json;
 using System.Threading.Tasks;
+using CQRSSAmple.Business.Abstract;
+using CQRSSAmple.Business.Operatori;
+using CQRSSAmple.Domain.Entity;
 using CQRSSAmple.Domain.Infrasctructure;
 using CQRSSAmple.Domain.Utility;
+using CQRSSAmple.Log;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -16,19 +20,6 @@ namespace CQRSSAmple.Controllers
             };
         }
 
-        protected void LogAccess(string origin)
-        {
-            var logger = LoggerHelper.GetInsance().GetLogger();
-            string method = string.Format("{0} {1}", "Start: ",  origin); 
-            logger.LogInformation(this.GetType().FullName + " - " + method);
-        }
-        
-        protected void LogError(string origin, string error)
-        {
-            var logger = LoggerHelper.GetInsance().GetLogger();
-            string method = string.Format("{0} {1} {2}", "Start: ",  origin, error); 
-            logger.LogInformation(this.GetType().FullName + " - " + method);
-        }
         
     }
 }
