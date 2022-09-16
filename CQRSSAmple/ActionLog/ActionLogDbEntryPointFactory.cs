@@ -13,8 +13,7 @@ namespace CQRSSAmple.ActionLog
             {
                 var actionLogDbType =(string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"ActionLogDbType");
                 var actionLogDbIsDummy =(bool) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(bool),"ActionLogDbIsDummy");
-                
-                //TODO: GESTIRE DA FILE DI CONFIGURAZIONE 
+
                 switch (actionLogDbType)
                 {
                     case "Mongo": 

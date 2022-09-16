@@ -8,6 +8,7 @@ using CQRSSAmple.Business.Operatori;
 using CQRSSAmple.Domain.Infrasctructure;
 using CQRSSAmple.Domain.Infrasctructure.Authorization;
 using CQRSSAmple.Domain.Queries.Serializer.EntityOne;
+using CQRSSAmple.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Forms;
@@ -93,6 +94,9 @@ namespace CQRSSAmple
             services.AddScoped<IEntityOneSerializer, EntityOneSerializer>();
             services.AddScoped<IEntityOneBusiness, EntityOneBusiness>();
             services.AddScoped<IOperatoriBusiness, OperatoriBusiness>();
+            
+            services.AddScoped<IOperatoriRepository, OperatoriRepository>();
+            services.AddScoped<IEntityOneRepository, EntityOneRepository>();
             
             //var connString = "Host=localhost;Database=CQRSSample;Username=postgres;Password=secret;Port=5532";
 

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CQRSSAmple.Domain.Infrasctructure.Configuration;
+using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
 namespace CQRSSAmple.ActionLog
@@ -11,12 +13,15 @@ namespace CQRSSAmple.ActionLog
 
         public MongoDbEntryPoint ()
         {
-            //TODO: GESTIRE DA FILE DI CONFIGURAZIONE
-            var mongoClient = new MongoClient ("mongodb://mongodb:secret@localhost:27017/logs?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false");
+            var actionLogMongoConnectionString =(string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"ActionLogMongoConnectionString");
+            var actionLogMongoDataBaseName =(string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"ActionLogMongoDataBaseName");
+            var actionLogCollection =(string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"ActionLogCollection");
+            
+            var mongoClient = new MongoClient (actionLogMongoConnectionString);
 
-            var db = mongoClient.GetDatabase ("CQRSSample");
+            var db = mongoClient.GetDatabase (actionLogMongoDataBaseName);
 
-            _logs = db.GetCollection<ActionLog> ("actionlog");
+            _logs = db.GetCollection<ActionLog> (actionLogCollection);
 
             
             
@@ -37,7 +42,7 @@ namespace CQRSSAmple.ActionLog
             
         }
 
-        public List<ActionLog> Get() => _logs.Find(l => l.PerformingUser == "paologregorat").ToList();
+        public List<ActionLog> Get() => _logs.Find(l => true).ToList();
 
         public async Task<List<ActionLog>> GetAsync () => await (await _logs.FindAsync (log => true)).ToListAsync ();
 

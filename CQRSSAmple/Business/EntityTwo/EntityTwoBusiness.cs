@@ -10,6 +10,7 @@ using CQRSSAmple.Domain.Infrasctructure;
 using CQRSSAmple.Domain.Queries.Serializer.EntityTwo;
 using Microsoft.EntityFrameworkCore;
 
+//SENZA REPOSITORY E UNITOFWORK
 namespace CQRSSAmple.Business.EntityTwo
 {
     public class EntityTwoBusiness : IEntityTwoBusiness

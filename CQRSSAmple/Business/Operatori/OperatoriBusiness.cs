@@ -4,16 +4,19 @@ using CQRSSAmple.Domain.Command;
 using CQRSSAmple.Domain.Entity;
 using CQRSSAmple.Domain.Infrasctructure;
 using CQRSSAmple.Domain.Infrasctructure.Authorization;
+using CQRSSAmple.Repository;
 
 namespace CQRSSAmple.Business.Operatori
 {
     public class OperatoriBusiness: IOperatoriBusiness
     {
         private EntityContext _context;
+        private readonly OperatoriRepository _repository;
 
-        public OperatoriBusiness(EntityContext context)
+        public OperatoriBusiness(EntityContext context, IOperatoriRepository repository)
         {
             _context = context;
+            _repository = (OperatoriRepository)repository;
         }
         
         public Operatore GetUtente(string username, string password)

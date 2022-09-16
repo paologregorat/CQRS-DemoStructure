@@ -2,6 +2,8 @@ using System;
 using System.IO;
 using System.Text;
 using CQRSSAmple.ActionLog;
+using CQRSSAmple.Domain.Infrasctructure.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Serilog;
 
@@ -15,9 +17,47 @@ namespace CQRSSAmple.Log
 
         private LoggerHelper()
         { 
+            var seqConnectionString = (string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"LogSeqConnectionString");
+            var logTxtName = (string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"LogTxtName");
+            var logTxtRollingInterval = (string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"LogTxtRollingInterval");
+            RollingInterval rollingIntervalTxt = RollingInterval.Day;
+            switch (logTxtRollingInterval)
+            {
+                case "Day":
+                {
+                    rollingIntervalTxt = RollingInterval.Day;
+                    break;
+                }
+                case "Hour":
+                {
+                    rollingIntervalTxt = RollingInterval.Hour;
+                    break;
+                }
+                case "Infinite":
+                {
+                    rollingIntervalTxt = RollingInterval.Infinite;
+                    break;
+                }
+                case "Minute":
+                {
+                    rollingIntervalTxt = RollingInterval.Minute;
+                    break;
+                }
+                case "Month":
+                {
+                    rollingIntervalTxt = RollingInterval.Month;
+                    break;
+                }
+                case "Year":
+                {
+                    rollingIntervalTxt = RollingInterval.Year;
+                    break;
+                }
+            }
+            
             var serilogLogger = new LoggerConfiguration()
-                .WriteTo.File("log.txt",shared: true, rollingInterval:RollingInterval.Day)
-                .WriteTo.Seq("http://localhost:5341")
+                .WriteTo.File(logTxtName,shared: true, rollingInterval:rollingIntervalTxt)
+                .WriteTo.Seq(seqConnectionString)
                 .WriteTo.Console()
                 .CreateLogger();
 
@@ -45,8 +85,9 @@ namespace CQRSSAmple.Log
 
         public string GetLogTxt()
         {
+            var logTxtName = (string) AppCQRSSampleConfiguration.GetConfiguration().GetValue(typeof(string),"LogTxtName");
             byte[] buffer = null;
-            using (var stream = File.Open("log.txt", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (var stream = File.Open(logTxtName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
                 buffer = new byte[stream.Length];
                 stream.Read(buffer, 0, (int)stream.Length);
