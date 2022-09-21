@@ -68,7 +68,6 @@ C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSS
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.runtimeconfig.json
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.runtimeconfig.dev.json
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.dll
-C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\ref\CQRSSAmple.dll
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.pdb
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\DnsClient.dll
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\Humanizer.dll
@@ -118,7 +117,6 @@ C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\runti
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
-C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csprojAssemblyReference.cache
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.GeneratedMSBuildEditorConfig.editorconfig
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfoInputs.cache
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.AssemblyInfo.cs
@@ -126,7 +124,6 @@ C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSS
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.MvcApplicationPartsAssemblyInfo.cs
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.MvcApplicationPartsAssemblyInfo.cache
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\staticwebassets\CQRSSAmple.StaticWebAssets.Manifest.cache
-C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\staticwebassets\CQRSSAmple.StaticWebAssets.xml
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\scopedcss\bundle\CQRSSAmple.styles.css
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.RazorTargetAssemblyInfo.cache
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.CopyComplete
@@ -134,3 +131,6 @@ C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSS
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\ref\CQRSSAmple.dll
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.pdb
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.genruntimeconfig.cache
+C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.StaticWebAssets.xml
+C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.AssemblyReference.cache
+C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\refint\CQRSSAmple.dll

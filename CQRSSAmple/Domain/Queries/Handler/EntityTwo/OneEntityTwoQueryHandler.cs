@@ -1,3 +1,4 @@
+using CQRSSAmple.Business.Abstract;
 using CQRSSAmple.Business.EntityTwo;
 using CQRSSAmple.Domain.EntityDTO;
 using CQRSSAmple.Domain.Queries.Abstract;
@@ -8,8 +9,8 @@ namespace CQRSSAmple.Domain.Queries.Handler.EntityTwo
     public class OneEntityTwoQueryHandler: IQueryHandler<OneEntityTwoQuery, EntityTwoDTO>
     {
         private readonly OneEntityTwoQuery _query;
-        private readonly EntityTwoBusiness _business;
-        public OneEntityTwoQueryHandler(OneEntityTwoQuery query, EntityTwoBusiness business)
+        private readonly IEntityTwoBusiness _business;
+        public OneEntityTwoQueryHandler(OneEntityTwoQuery query, IEntityTwoBusiness business)
         {
             _query = query;
             _business = business;

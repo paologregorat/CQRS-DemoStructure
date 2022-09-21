@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wYlbGTeM9GeCZh7K0sdGMFOLZr90dPsDDWBGMQeIhUVUZVgZy3xy/6jxaSuyq/snh0Ls544eaf6JmjeDFoqYNQ==",
+  "dgSpecHash": "CBcqnH41dTfl8Mq2Ey05YOAF752tTZzI6Yth0Si/+ApCbbQrrQ1pscsKofawMO5muUWpXAODeZNgWRQGba3JWA==",
   "success": true,
   "projectFilePath": "C:\\Personale\\Henshin\\src\\CQRSSAmple\\CQRSSAmple\\CQRSSAmple\\CQRSSAmple.csproj",
   "expectedPackageFiles": [
@@ -84,7 +84,8 @@
     "C:\\Users\\paolo\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
     "C:\\Users\\paolo\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\paolo\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
-    "C:\\Users\\paolo\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512"
+    "C:\\Users\\paolo\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512",
+    "C:\\Users\\paolo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

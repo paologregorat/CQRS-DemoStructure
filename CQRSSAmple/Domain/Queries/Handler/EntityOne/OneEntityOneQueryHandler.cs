@@ -1,3 +1,4 @@
+using CQRSSAmple.Business.Abstract;
 using CQRSSAmple.Business.EntityOne;
 using CQRSSAmple.Domain.EntityDTO;
 using CQRSSAmple.Domain.Queries.Abstract;
@@ -8,8 +9,8 @@ namespace CQRSSAmple.Domain.Queries.Handler.EntityOne
     public class OneEntityOneQueryHandler: IQueryHandler<OneEntityOneQuery, EntityOneDTO>
     {
         private readonly OneEntityOneQuery _query;
-        private readonly EntityOneBusiness _business;
-        public OneEntityOneQueryHandler(OneEntityOneQuery query, EntityOneBusiness business)
+        private readonly IEntityOneBusiness _business;
+        public OneEntityOneQueryHandler(OneEntityOneQuery query, IEntityOneBusiness business)
         {
             _query = query;
             _business = business;

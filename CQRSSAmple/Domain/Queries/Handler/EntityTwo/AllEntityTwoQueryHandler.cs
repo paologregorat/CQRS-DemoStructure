@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CQRSSAmple.Business.Abstract;
 using CQRSSAmple.Business.EntityTwo;
 using CQRSSAmple.Domain.EntityDTO;
 using CQRSSAmple.Domain.Queries.Abstract;
@@ -8,9 +9,9 @@ namespace CQRSSAmple.Domain.Queries.Handler.EntityTwo
 {
     public class AllEntityTwoQueryHandler : IQueryHandler<AllEntityTwoQuery, IEnumerable<EntityTwoDTO>>
     {
-        private readonly EntityTwoBusiness _business;
+        private readonly IEntityTwoBusiness _business;
 
-        public AllEntityTwoQueryHandler(EntityTwoBusiness business)
+        public AllEntityTwoQueryHandler(IEntityTwoBusiness business)
         {
             _business = business;
         }

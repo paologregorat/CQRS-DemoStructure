@@ -20,11 +20,11 @@ namespace CQRSSAmple.Controllers
     [Route("v1/entitiesone")]
     public class EntityOneController : ControllerBase
     {
-        private readonly EntityOneBusiness _business;
+        private readonly IEntityOneBusiness _business;
 
         public EntityOneController(IEntityOneBusiness business)
         {
-            _business = (EntityOneBusiness)business;
+            _business = business;
         }
 
         [HttpGet]

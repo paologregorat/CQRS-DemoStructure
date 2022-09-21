@@ -17,10 +17,10 @@ namespace CQRSSAmple.Controllers
     [Authorize] 
     public class OperatoriController : WebControllerBase
     {
-        private readonly OperatoriBusiness _business;
+        private readonly IOperatoriBusiness _business;
         public OperatoriController(IOperatoriBusiness business) 
         {
-            _business = (OperatoriBusiness) business;
+            _business = business;
         }
         
         [Route("v1/operatori/login")]
