@@ -29,9 +29,9 @@ namespace CQRSSAmple.Business.EntityOne
         public List<Domain.Entity.EntityOne> GetAll() =>  _repository.Get().ToList();
         public List<EntityOneDTO> GetAllDTO() => _serializer.SerializeList(GetAll());
 
-        public List<Domain.Entity.EntityOne> Search(Expression<Func<Domain.Entity.EntityOne, bool>> whereClause) =>  _repository.Get(whereClause).ToList();
+        public List<Domain.Entity.EntityOne> Search(Expression<Func<Domain.Entity.EntityOne, bool>> whereClause, bool? asTraking, Func<IQueryable<Domain.Entity.EntityOne>, IOrderedQueryable<Domain.Entity.EntityOne>> orderBy, string includeProperties) =>  _repository.Get(whereClause, asTraking, orderBy, includeProperties ).ToList();
         
-        public List<EntityOneDTO> SearchDTO(Expression<Func<Domain.Entity.EntityOne, bool>> whereClause) =>  _serializer.SerializeList(Search(whereClause));
+        public List<EntityOneDTO> SearchDTO( Expression<Func<Domain.Entity.EntityOne, bool>> whereClause, bool? asTraking, Func<IQueryable<Domain.Entity.EntityOne>, IOrderedQueryable<Domain.Entity.EntityOne>> orderBy, string includeProperties) =>  _serializer.SerializeList(Search(whereClause, asTraking, orderBy, includeProperties ));
 
         public Domain.Entity.EntityOne GetById(System.Guid id) => _repository.GetById(id);
 

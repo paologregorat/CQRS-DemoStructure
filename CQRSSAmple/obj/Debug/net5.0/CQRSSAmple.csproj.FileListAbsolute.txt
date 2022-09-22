@@ -131,6 +131,5 @@ C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSS
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\ref\CQRSSAmple.dll
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.pdb
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.genruntimeconfig.cache
-C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\bin\Debug\net5.0\CQRSSAmple.StaticWebAssets.xml
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\CQRSSAmple.csproj.AssemblyReference.cache
 C:\Personale\Henshin\src\CQRSSAmple\CQRSSAmple\CQRSSAmple\obj\Debug\net5.0\refint\CQRSSAmple.dll

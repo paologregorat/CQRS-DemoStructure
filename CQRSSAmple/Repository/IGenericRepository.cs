@@ -10,7 +10,7 @@ namespace CQRSSAmple.Repository
     {
         TEntity GetById(TKey id);
 
-        IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "");
+        IEnumerable<TEntity> Get( Expression<Func<TEntity, bool>> filter = null, bool? asTraking = true, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "");
 
         void Delete(TKey id);
 

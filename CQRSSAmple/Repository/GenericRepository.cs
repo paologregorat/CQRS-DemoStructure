@@ -26,10 +26,15 @@ namespace CQRSSAmple.Repository
             return _dbSet.Find(id);
         }
 
-        public IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>> predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = null)
+        public IEnumerable<TEntity> Get( Expression<Func<TEntity, bool>> predicate = null, bool? asTraking = true, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = null)
         {
             IQueryable<TEntity> query = _dbSet;
 
+            if (asTraking.HasValue && asTraking.Value == false)
+            {
+                query.AsNoTracking();
+            }
+            
             if (predicate != null)
             {
                 query = query.Where(predicate);
