@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using CQRSSAmple.Domain.EntityDTO;
+using CQRSSAmple.Domain.EntityExtensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace CQRSSAmple.Domain.Queries.Serializer.EntityOne
@@ -31,13 +32,7 @@ namespace CQRSSAmple.Domain.Queries.Serializer.EntityOne
         
         public  EntityOneDTO SerializeSingle(Entity.EntityOne toSerialize)
         {
-            var result = new EntityOneDTO()
-            {
-                ID = toSerialize.ID,
-                FieldOne = toSerialize.FieldOne,
-                FieldDTOOne = "AAA"
-            };
-            return result;
+            return toSerialize.ToDTO();
         }
     }
 }
