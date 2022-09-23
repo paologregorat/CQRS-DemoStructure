@@ -8,6 +8,7 @@ using CQRSSAmple.Business.Abstract;
 using CQRSSAmple.Domain.Command;
 using CQRSSAmple.Domain.Entity;
 using CQRSSAmple.Domain.EntityDTO;
+using CQRSSAmple.Domain.EntityExtensions;
 using CQRSSAmple.Domain.Infrasctructure;
 using CQRSSAmple.Domain.Queries.Serializer.EntityOne;
 using CQRSSAmple.Repository;
@@ -44,21 +45,9 @@ namespace CQRSSAmple.Business.EntityOne
             {
                 Success = false
             };
-            
-            //if (Validator<Corso>.CheckEntity(e =>
-            //{
-            //    if (string.IsNullOrEmpty(e.Nome))
-            //    {
-            //        return false;
-            //    }
-//
-            //    return true;
-            //}, command.Corso) == false)
-            //{
-            //    response.Success = false;
-            //    response.Message ="Nome obbligatorio";
-            //    return response;
-            //}
+
+            if (!command.EntityOne.IsValid())
+                return response;
             
             var toUpdate = _repository.GetById(command.EntityOne.ID);
             if (toUpdate == default)

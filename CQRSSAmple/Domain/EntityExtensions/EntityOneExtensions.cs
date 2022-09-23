@@ -15,5 +15,13 @@ namespace CQRSSAmple.Domain.EntityExtensions
                 FieldDTOOne = "AAA"
             };
         }
+
+        public static bool IsValid(this EntityOne entity)
+        {
+            if (string.IsNullOrEmpty(entity.FieldOne))
+                return false;
+
+            return true;
+        }
     }
 }
